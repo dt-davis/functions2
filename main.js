@@ -25,3 +25,15 @@ function power(x,y){
 
 console.log('power function:   ' + power(2,8))
 console.log('power function:   ' + power(3,4))
+
+function factorial (x){
+    let total = 1
+    for(x; x > 1; x--){
+        total = multiply(total,x)
+    }
+    return total
+}
+
+console.log('factorial function:   ' + factorial(5))
+console.log('factorial function:   ' + factorial(7))
+console.log('factorial function:   ' + factorial(20))
