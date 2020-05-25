@@ -28,7 +28,7 @@ console.log('power function:   ' + power(3,4))
 
 function factorial (x){
     let total = 1
-    for(x; x > 1; x--){
+    for(x; x > 1; x = add(x,-1)){
         total = multiply(total,x)
     }
     return total
